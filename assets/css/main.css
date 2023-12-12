@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    padding: 15px;
+}
+
+span {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    padding: 20px;
+    text-align: justify;
+}
+
+.section_1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 50vh;
+    background-color: #fff;
+}
+
+.sec_cards1 {
+    width: 24vw;
+    height: 50vh;
+    display: flex;
+    background-color: #c8c34e;
+    flex-flow: column wrap;
+    justify-content: center;
+}
