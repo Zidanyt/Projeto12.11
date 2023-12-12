@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav { display: grid; grid-template-columns: repeat(2, 1fr); justify-content: space-between;padding-left: 60px; }
+
+ul { display: grid; grid-template-columns: 100px 100px 100px 100px 100px; list-style: none; place-items: center;}
+
+.div-bg { background-image: url(./images/headerbibli.jpg); background-repeat: no-repeat; background-size: cover; display: grid;}
+
+header{
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+}
+
+header div {
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
