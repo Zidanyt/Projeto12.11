@@ -5,9 +5,9 @@
 }
 
 main {
+    padding-top: 3rem;
     background-color: #fff;
     width: 100vw;
-    height: 100vh;
 }
 
 h2 {
@@ -29,16 +29,16 @@ p {
 }
 
 .section_1 {
+    gap: 10px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 100vw;
-    height: 50vh;
     background-color: #fff;
 }
 
 .sec_cards1 {
     width: 24vw;
-    height: 50vh;
     display: flex;
     background-color: #c8c34e;
     flex-flow: column wrap;
